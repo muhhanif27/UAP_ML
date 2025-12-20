@@ -5,7 +5,7 @@ description = "Default template for PDM package"
 authors = [
     {name = "muhhanif27", email = "mhanif0203@gmail.com"},
 ]
-dependencies = ["streamlit>=1.52.2", "pandas>=2.3.3", "numpy>=2.3.5", "scikit-learn>=1.8.0", "joblib>=1.5.3", "torch>=2.9.1", "pytorch-tabnet>=4.1.0", "tensorflow>=2.20.0"]
+dependencies = ["streamlit>=1.52.2", "pandas>=2.3.3", "numpy>=2.3.5", "scikit-learn>=1.8.0", "joblib>=1.5.3", "torch>=2.9.1", "pytorch-tabnet>=4.1.0", "tensorflow>=2.20.0", "rtdl-revisiting-models>=0.0.2"]
 requires-python = "==3.12"
 readme = "README.md"
 license = {text = "MIT"}

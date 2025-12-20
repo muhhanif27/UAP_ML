@@ -5,7 +5,7 @@
 groups = ["default"]
 strategy = ["inherit_metadata"]
 lock_version = "4.5.0"
-content_hash = "sha256:edfb4164901d8d16eb7dabf6c540e36d159798bd6589f79536343894489eb76a"
+content_hash = "sha256:1e62648fcfbc0ecbca218155c42073023a251199e072a0fab2fec5a1a8edf52a"
 
 [[metadata.targets]]
 requires_python = "==3.12"
@@ -997,6 +997,20 @@ files = [
     {file = "rpds_py-0.30.0-cp312-cp312-win_amd64.whl", hash = "sha256:a090322ca841abd453d43456ac34db46e8b05fd9b3b4ac0c78bcde8b089f959b"},
     {file = "rpds_py-0.30.0-cp312-cp312-win_arm64.whl", hash = "sha256:669b1805bd639dd2989b281be2cfd951c6121b65e729d9b843e9639ef1fd555e"},
     {file = "rpds_py-0.30.0.tar.gz", hash = "sha256:dd8ff7cf90014af0c0f787eea34794ebf6415242ee1d6fa91eaba725cc441e84"},
+]
+
+[[package]]
+name = "rtdl-revisiting-models"
+version = "0.0.2"
+requires_python = ">=3.8"
+summary = "Revisiting Deep Learning Models for Tabular Data."
+groups = ["default"]
+dependencies = [
+    "torch<3,>=1.8",
+]
+files = [
+    {file = "rtdl_revisiting_models-0.0.2-py3-none-any.whl", hash = "sha256:12c9cc1fc7a950cececd977ed810ec336fb8354cab96cd858855ce8e8cbe6e0a"},
+    {file = "rtdl_revisiting_models-0.0.2.tar.gz", hash = "sha256:2f430e4ce612ceceff023b78720583dd3c425446f2ce8c34fe3ad413178050a6"},
 ]
 
 [[package]]
