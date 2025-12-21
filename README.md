@@ -91,12 +91,12 @@ Berikut adalah visualisasi performa model (pastikan path gambar sesuai di reposi
 
 #### Confusion Matrix
 ![MLP Confusion Matrix](src/images/MLP_CM.png)
-![TabNet Confusion Matrix](src/images/TabNet_CM.png)
+![TabNet Confusion Matrix](src/images/Tabnet_CM.png)
 ![FT-Transformer Confusion Matrix](src/images/FT_Transformers_CM.png)
 
 #### Plot Loss & Accuracy
 ![MLP Loss](src/images/MLP_Loss.png) ![MLP Accuracy](src/images/MLP_Accuracy.png)
-![TabNet Loss](src/images/TabNet_Loss.png) ![TabNet Accuracy](src/images/TabNet_Accuracy.png)
+![TabNet Loss](src/images/Tabnet_Loss.png) ![TabNet Accuracy](src/images/Tabnet_Accuracy.png)
 ![FT-Transformer Loss](src/images/FT_Transformers_Loss.png) ![FT-Transformer Accuracy](src/images/FT_Transformers_Accuracy.png)
 
 ---
