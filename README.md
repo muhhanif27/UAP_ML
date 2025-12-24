@@ -142,7 +142,7 @@ Seluruh visualisasi hasil training dan evaluasi model disusun dalam bentuk tabel
 | Model          | Loss Plot                                | Accuracy Plot                                |
 | -------------- | ---------------------------------------- | -------------------------------------------- |
 | MLP            | ![](src/images/MLP_Loss.png)             | ![](src/images/MLP_Accuracy.png)             |
-| TabNet         | ![](src/images/Tabet_Loss.png)           | ![](src/images/Tabnet_Accuracy.png)          |
+| TabNet         | ![](src/images/Tabnet_Loss.png)           | ![](src/images/Tabnet_Accuracy.png)          |
 | FT-Transformer | ![](src/images/FT_Transformers_Loss.png) | ![](src/images/FT_Transformers_Accuracy.png) |
 
 ---
