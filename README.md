@@ -123,6 +123,14 @@ Seluruh model dievaluasi menggunakan test set dengan pendekatan **macro-averaged
 
 **Kesimpulan:** FT-Transformer menunjukkan performa terbaik secara keseluruhan, diikuti oleh TabNet. MLP tetap memberikan performa yang cukup baik sebagai baseline.
 
+### Model Comparison Analysis
+
+| Model Name                       | Accuracy | Analysis                                                                                                                                                                                                                                                                                                                                              |
+| -------------------------------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **MLP (Multi-Layer Perceptron)** | 0.97     | MLP menunjukkan proses konvergensi yang cepat dan stabil pada data tabular. Perbedaan performa antara data training dan validation relatif kecil, yang mengindikasikan kemampuan generalisasi yang baik. Model ini juga memiliki kompleksitas komputasi yang rendah sehingga sangat cocok digunakan sebagai baseline yang efisien.                    |
+| **TabNet**                       | 0.99     | TabNet memanfaatkan mekanisme attention untuk melakukan seleksi fitur secara dinamis selama proses training. Model ini menghasilkan performa validasi yang sangat stabil dengan dukungan early stopping serta memberikan keunggulan dalam hal interpretabilitas fitur dibandingkan model neural network konvensional.                                 |
+| **FT-Transformer**               | 0.99     | FT-Transformer mampu menangkap hubungan kompleks antar fitur tabular melalui arsitektur transformer. Proses pembelajarannya berlangsung secara gradual dan stabil, dengan peningkatan performa yang konsisten. Meskipun membutuhkan biaya komputasi dan waktu training yang lebih tinggi, model ini menghasilkan performa terbaik secara keseluruhan. |
+
 ---
 
 ## Visualisasi Hasil
